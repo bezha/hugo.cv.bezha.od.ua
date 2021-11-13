@@ -47,20 +47,20 @@ disable404 = true
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:by request"
+        title = "by request"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//bezha.github.io"
+        url = "//bezha.github.io/cv"
         title = "cv.bezha.od.ua"
 
-        [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        #[[params.contact.list]]
+        #class = "linkedin"
+        #icon = "fa-linkedin"
+        #url = "//linkedin.com/in/johndoe"
+        #title = "linkedin.com/in/johndoe"
 
         [[params.contact.list]]
         class = "github"
@@ -127,10 +127,17 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "System Administrator"
+        dates = "2012 - Present"
+        company = "USA NY DataCenter"
+        #details = "**Describe your role here**"
+        [[params.jobs.list]]
+        position = "System Administrator"
+        dates = "2007 - 2010"
+        company = "Technologies of the Future LLC Hosting.UA"
+        #details = "**Describe your role here**"
+        # lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+
 
     # Projects section
     [params.projects]
@@ -140,9 +147,9 @@ disable404 = true
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Docker Megacli"
+        url = "https://github.com/bezha/Docker-MegaCli"
+        tagline = "Docker container for running MegaCli and SMART scripts"
 
         [[params.projects.list]]
         title = "Simple FAQ Theme for Hugo"
