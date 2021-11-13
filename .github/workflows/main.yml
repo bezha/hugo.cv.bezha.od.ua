@@ -26,7 +26,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
-          external_repository: cv.bezha.od.ua/bezha.github.io
+          external_repository: cv.bezha.od.ua
           publish_dir: ./public
           user_name: bezha
           user_email: bezha@gmail.com
