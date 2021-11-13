@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.CV_TOKEN }}
           external_repository: bezha/cv.bezha.od.ua
           publish_dir: ./public
           user_name: bezha
