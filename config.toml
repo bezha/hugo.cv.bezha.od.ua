@@ -53,8 +53,8 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//bezha.github.io/cv"
-        title = "cv.bezha.od.ua"
+        url = "//bezha.od.ua"
+        title = "bezha.od.ua"
 
         #[[params.contact.list]]
         #class = "linkedin"
@@ -149,17 +149,22 @@ disable404 = true
         [[params.projects.list]]
         title = "Docker Megacli"
         url = "https://github.com/bezha/Docker-MegaCli"
-        tagline = "Docker container for running MegaCli and SMART scripts"
+        tagline = "Docker container for running MegaCli and SMART/IPMI scripts"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "Backup OpenVZ VPS"
+        url = "https://github.com/bezha/Virtuozzo_Backup"
+        tagline = "Backup scripts for OpenVZ/Virtuozzo VPS."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "Backup KVM VPS"
+        url = "https://github.com/bezha/KVM_Backup"
+        tagline = "Backup scripts for KVM VPS."
+
+        [[params.projects.list]]
+        title = "Backup XEN VPS"
+        url = "https://github.com/bezha/Xen_Backup"
+        tagline = "Backup scripts for KVM VPS."
 
         [[params.projects.list]]
         title = "Orbit"
@@ -178,28 +183,28 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        skill = "Linux: CentOS/Ubuntu"
+        level = "90%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        skill = "Bash"
+        level = "50%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "Ansible"
+        level = "50%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "AWS"
+        level = "5%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "Docker"
+        level = "25%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "Kubernetes"
+        level = "5%"
 
     # Footer section
 
