@@ -53,7 +53,7 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//cv.bezha.od.ua"
+        url = "//bezha.github.io"
         title = "cv.bezha.od.ua"
 
         [[params.contact.list]]
