@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://bezha.github.io/"
+baseurl = "https://bezha.github.io/cv.bezha.od.ua/"
 languageCode = "en-us"
 title = "Bezhanovich Vitaliy Resume"
 theme = "hugo-orbit-theme"
