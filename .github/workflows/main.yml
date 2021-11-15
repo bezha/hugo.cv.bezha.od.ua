@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy to Github Actions
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.CV_TOKEN }}
@@ -31,3 +31,14 @@ jobs:
           user_name: bezha
           user_email: bezha@gmail.com
           publish_branch: main
+
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          SOURCE_DIR: 'public'
+          AWS_S3_BUCKET: cv.bezha.od.ua
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'eu-central-1'
