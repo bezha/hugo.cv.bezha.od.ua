@@ -130,13 +130,13 @@ disable404 = true
         position = " DataCenter System Administrator"
         dates = "2012 - Present"
         company = "USA NY DataCenter"
-        details = "**Describe your role here**"
+        details = "**My role** Technical support for clients requests; Installing OS to Dedicated/VPS; Virtualization with SolusVM: OpenVZ/KVM/XEN; Monitoring Hardware Nodes with: Nagios/Prometheus; Backup VPS; Ansible:Provisioning monitoring software; Sharing Hosting: Installing/Support: Cpanel/Plesk"
         [[params.jobs.list]]
         position = "DataCenter System Administrator"
         dates = "2007 - 2010"
         company = "Technologies of the Future LLC Hosting.UA"
         #details = "**Describe your role here**"
-        # lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        
 
 
     # Projects section
@@ -187,23 +187,27 @@ disable404 = true
         level = "90%"
                 
         [[params.skills.list]]
-        skill = "Bash"
-        level = "50%"
+        skill = "Monitoring:Nagios"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Ansible"
         level = "50%"
 
         [[params.skills.list]]
+        skill = "Docker"
+        level = "15%"
+
+        [[params.skills.list]]
         skill = "AWS"
         level = "5%"
 
         [[params.skills.list]]
-        skill = "Docker"
-        level = "25%"
+        skill = "Kubernetes"
+        level = "5%"
 
         [[params.skills.list]]
-        skill = "Kubernetes"
+        skill = "Terraform"
         level = "5%"
 
     # Footer section
