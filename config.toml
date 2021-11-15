@@ -130,7 +130,7 @@ disable404 = true
         position = " DataCenter System Administrator"
         dates = "2012 - Present"
         company = "USA NY DataCenter"
-        details = "**My role** Technical support for clients requests; Installing OS to Dedicated/VPS; Virtualization with SolusVM: OpenVZ/KVM/XEN; Monitoring Hardware Nodes with: Nagios/Prometheus; Backup VPS; Ansible:Provisioning monitoring software; Sharing Hosting: Installing/Support: Cpanel/Plesk"
+        details = "**My current role:** Technical support for clients requests; Installing OS to Dedicated/VPS; Virtualization with SolusVM: OpenVZ/KVM/XEN; Monitoring Hardware Nodes with: Nagios/Prometheus; Backup VPS; Ansible:Provisioning monitoring software; Sharing Hosting: Installing/Support: Cpanel/Plesk"
         [[params.jobs.list]]
         position = "DataCenter System Administrator"
         dates = "2007 - 2010"
