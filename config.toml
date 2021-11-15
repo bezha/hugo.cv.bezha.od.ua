@@ -118,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "**A self-motivated, enthusiastic midlife career changer pursuing cloud engineer position**"
 
     # Experiences section
     [params.experiences]
@@ -127,12 +127,12 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "System Administrator"
+        position = " DataCenter System Administrator"
         dates = "2012 - Present"
         company = "USA NY DataCenter"
-        #details = "**Describe your role here**"
+        details = "**Describe your role here**"
         [[params.jobs.list]]
-        position = "System Administrator"
+        position = "DataCenter System Administrator"
         dates = "2007 - 2010"
         company = "Technologies of the Future LLC Hosting.UA"
         #details = "**Describe your role here**"
