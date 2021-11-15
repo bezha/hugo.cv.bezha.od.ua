@@ -157,7 +157,7 @@ disable404 = true
 
         [[params.projects.list]]
         title = "Hugo CV S3"
-        url = "https://github.com/bezha/cv"
+        url = "https://github.com/bezha/hugo.cv.bezha.od.ua"
         tagline = "Hosting CV on S3 with Github Actions CI/CD"
 
         [[params.projects.list]]
@@ -170,10 +170,6 @@ disable404 = true
         url = "https://github.com/aerohub/hugo-orbit-theme"
         tagline = "Hugo Resume/CV Theme for Developers."
 
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
 
     # Skills section
     [params.skills]
