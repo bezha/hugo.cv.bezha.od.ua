@@ -118,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**A self-motivated, enthusiastic midlife career changer pursuing cloud engineer position.** Wants to change mind paradigm from on-premises to cloud way with AWS/Terraform/Kubernetes. Seeking Cloud Mentor"
+        summary = "**A self-motivated, enthusiastic midlife career changer pursuing cloud engineer position.** Wants to change mind paradigm from on-premises to cloud way with AWS/Terraform/Kubernetes. Seeking Cloud Mentor."
 
     # Experiences section
     [params.experiences]
@@ -130,13 +130,12 @@ disable404 = true
         position = " DataCenter System Administrator"
         dates = "2012 - Present"
         company = "USA NY DataCenter"
-        details = "**My current role:** Technical support for clients requests; Installing OS to Dedicated/VPS; Virtualization with SolusVM: OpenVZ/KVM/XEN; Monitoring Hardware Nodes with: Nagios/Prometheus; Backup VPS; Ansible:Provisioning monitoring software; Sharing Hosting: Installing/Support: Cpanel/Plesk"
+        details = "**My current role:** Technical support for clients requests; Installing OS/Software to Dedicated/VPS; **Virtualization** with SolusVM: OpenVZ/KVM/XEN; **Monitoring** Hardware Nodes with: Nagios/Prometheus; **Backup** VPS; **Ansible**:Provisioning monitoring software; Sharing Hosting: Installing/Support: Cpanel/Plesk"
         [[params.jobs.list]]
         position = "DataCenter System Administrator"
         dates = "2007 - 2010"
         company = "Technologies of the Future LLC Hosting.UA"
         #details = "**Describe your role here**"
-        
 
 
     # Projects section
@@ -187,8 +186,8 @@ disable404 = true
         level = "90%"
                 
         [[params.skills.list]]
-        skill = "Monitoring:Nagios"
-        level = "80%"
+        skill = "Monitoring:Nagios/Prom"
+        level = "70%"
 
         [[params.skills.list]]
         skill = "Ansible"
