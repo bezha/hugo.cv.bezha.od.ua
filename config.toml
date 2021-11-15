@@ -118,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**A self-motivated, enthusiastic midlife career changer pursuing cloud engineer position**"
+        summary = "**A self-motivated, enthusiastic midlife career changer pursuing cloud engineer position.** Wants to change mind paradigm from on-premises to cloud way with AWS/Terraform/Kubernetes. Seeking Cloud Mentor"
 
     # Experiences section
     [params.experiences]
@@ -152,14 +152,14 @@ disable404 = true
         tagline = "Docker container for running MegaCli and SMART/IPMI scripts"
 
         [[params.projects.list]]
-        title = "Backup OpenVZ VPS"
-        url = "https://github.com/bezha/Virtuozzo_Backup"
-        tagline = "Backup scripts for OpenVZ/Virtuozzo VPS."
+        title = "Hugo CV Github Pages"
+        url = "https://github.com/bezha/hugo.cv.bezha.od.ua"
+        tagline = "Hosting CV on Github Pages with Github Actions CI/CD"
 
         [[params.projects.list]]
-        title = "Backup KVM VPS"
-        url = "https://github.com/bezha/KVM_Backup"
-        tagline = "Backup scripts for KVM VPS."
+        title = "Hugo CV S3"
+        url = "https://github.com/bezha/cv"
+        tagline = "Hosting CV on S3 with Github Actions CI/CD"
 
         [[params.projects.list]]
         title = "Backup XEN VPS"
