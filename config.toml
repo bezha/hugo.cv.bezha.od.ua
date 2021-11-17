@@ -142,18 +142,18 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        title = " My Projects"
+        #intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
         title = "Docker Megacli"
         url = "https://github.com/bezha/Docker-MegaCli"
-        tagline = "Docker container for running MegaCli and SMART/IPMI scripts. GitHub Actions Workflow to store image on https://hub.docker.com/"
+        tagline = "Docker container for running MegaCli and SMART/IPMI scripts. GitHub Actions Workflow CI/CD to store image on https://hub.docker.com/"
 
         [[params.projects.list]]
         title = "Docker Megacli"
         url = "https://github.com/bezha/docker_megacli_on_ghcr.io"
-        tagline = "Docker container for running MegaCli and SMART/IPMI scripts. GitHub Actions Workflow to store image on https://ghcr.io/"
+        tagline = "Docker container for running MegaCli and SMART/IPMI scripts. GitHub Actions Workflow CI/CD to store image on https://ghcr.io/"
 
         [[params.projects.list]]
         title = "Hugo CV Github Pages"
