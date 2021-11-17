@@ -148,12 +148,12 @@ disable404 = true
         [[params.projects.list]]
         title = "Docker Megacli"
         url = "https://github.com/bezha/Docker-MegaCli"
-        tagline = "Docker container for running MegaCli and SMART/IPMI scripts (https://hub.docker.com/)"
+        tagline = "Docker container for running MegaCli and SMART/IPMI scripts GitHub Actions Workflow to store image on https://hub.docker.com/"
 
         [[params.projects.list]]
         title = "Docker Megacli"
         url = "https://github.com/bezha/docker_megacli_on_ghcr.io"
-        tagline = "Docker container for running MegaCli and SMART/IPMI scripts (https://ghcr.io/)"
+        tagline = "Docker container for running MegaCli and SMART/IPMI scripts GitHub Actions Workflow to store image on https://ghcr.io/"
 
         [[params.projects.list]]
         title = "Hugo CV Github Pages"
