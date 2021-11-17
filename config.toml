@@ -148,7 +148,12 @@ disable404 = true
         [[params.projects.list]]
         title = "Docker Megacli"
         url = "https://github.com/bezha/Docker-MegaCli"
-        tagline = "Docker container for running MegaCli and SMART/IPMI scripts"
+        tagline = "Docker container for running MegaCli and SMART/IPMI scripts (https://hub.docker.com/)"
+
+        [[params.projects.list]]
+        title = "Docker Megacli"
+        url = "https://github.com/bezha/docker_megacli_on_ghcr.io"
+        tagline = "Docker container for running MegaCli and SMART/IPMI scripts (https://ghcr.io/)"
 
         [[params.projects.list]]
         title = "Hugo CV Github Pages"
@@ -164,12 +169,6 @@ disable404 = true
         title = "Backup XEN VPS"
         url = "https://github.com/bezha/Xen_Backup"
         tagline = "Backup scripts for KVM VPS."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
 
     # Skills section
     [params.skills]
