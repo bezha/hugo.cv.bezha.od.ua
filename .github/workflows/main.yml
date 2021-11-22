@@ -41,15 +41,16 @@ jobs:
           AWS_S3_BUCKET: cv.bezha.od.ua
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-     - name: docker login   
-      - uses: actions/checkout@v2
+
+      -  name: docker login   
+         uses: actions/checkout@v2
           env:
-        DOCKER_USER: ${{secrets.DOCKER_USER}}
-        DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-      run: |
-        docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag bezhav/static_cv:v1
+          DOCKER_USER: ${{secrets.DOCKER_USER}}
+          DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+          run: |
+          docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
+     - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag bezhav/static_cv:v1
       
-    - name: Docker Push
-      run: docker push bezhav/static_cv:v1
+     - name: Docker Push
+        run: docker push bezhav/static_cv:v1
