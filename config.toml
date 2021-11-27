@@ -162,13 +162,13 @@ disable404 = true
 
         [[params.projects.list]]
         title = "Hugo CV S3"
-        url = "https://github.com/bezha/hugo.cv.bezha.od.ua"
+        url = "https://s3.eu-central-1.amazonaws.com/cv.bezha.od.ua/index.html"
         tagline = "Hosting CV on S3 with Github Actions CI/CD"
 
         [[params.projects.list]]
-        title = "Backup XEN VPS"
-        url = "https://github.com/bezha/Xen_Backup"
-        tagline = "Backup scripts for KVM VPS."
+        title = "AWS EKS CV "
+        url = "https://github.com/bezha/EKS_Kubernetes_CV"
+        tagline = "AWS EKS CV stateless application"
 
     # Skills section
     [params.skills]
