@@ -56,6 +56,12 @@ disable404 = true
         url = "//bezha.od.ua"
         title = "bezha.od.ua"
 
+        [[params.contact.list]]
+        class = "CV"
+        icon = "fa-globe"
+        url = "//cv.bezha.od.ua"
+        title = "cv.bezha.od.ua"
+
         #[[params.contact.list]]
         #class = "linkedin"
         #icon = "fa-linkedin"
@@ -158,17 +164,22 @@ disable404 = true
         [[params.projects.list]]
         title = "Hugo CV Github Pages"
         url = "https://github.com/bezha/hugo.cv.bezha.od.ua"
-        tagline = "Hosting CV on Github Pages with Github Actions CI/CD"
+        tagline = "Hosting CV on Github Pages with Github Actions CI/CD https://bezha.github.io/cv/"
 
         [[params.projects.list]]
         title = "Hugo CV S3"
         url = "https://s3.eu-central-1.amazonaws.com/cv.bezha.od.ua/index.html"
-        tagline = "Hosting CV on S3 with Github Actions CI/CD"
+        tagline = "Hosting CV on S3 with Github Actions CI/CD https://github.com/bezha/hugo.cv.bezha.od.ua"
 
         [[params.projects.list]]
-        title = "AWS EKS CV "
+        title = "AWS EKS CV"
         url = "https://github.com/bezha/EKS_Kubernetes_CV"
         tagline = "AWS EKS CV stateless application"
+
+        [[params.projects.list]]
+        title = "Prepairing to AWS Certifications Cloud Practitioner"
+        url = "https://bezha.od.ua/aws-certifications-cloud-practitioner/"
+        tagline = "AWS CCP"
 
     # Skills section
     [params.skills]
@@ -194,15 +205,15 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "AWS"
-        level = "5%"
+        level = "2%"
 
         [[params.skills.list]]
         skill = "Kubernetes"
-        level = "5%"
+        level = "2%"
 
         [[params.skills.list]]
         skill = "Terraform"
-        level = "5%"
+        level = "2%"
 
     # Footer section
 
