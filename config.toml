@@ -2,7 +2,7 @@
 
 baseurl = "https://bezha.github.io/cv/"
 languageCode = "en-us"
-title = "Bezhanovich Vitaliy Resume"
+title = "Bezhanovych Vitalii Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -30,7 +30,7 @@ disable404 = true
 
     # Profile section
     [params.profile]
-        name = "Bezhanovich Vitaliy"
+        name = "Bezhanovych Vitalii"
         tagline = "DevOps Intern"
         avatar = "profile.png"
 
