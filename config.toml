@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Bezhanovych Vitalii"
-        tagline = "DevOps Intern"
+        tagline = "Junior DevOps"
         avatar = "profile.png"
 
     # Contact section

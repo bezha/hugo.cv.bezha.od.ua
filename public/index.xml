@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bezhanovich Vitaliy Resume</title>
-    <link>https://bezha.github.io/cv.bezha.od.ua/public/</link>
-    <description>Recent content on Bezhanovich Vitaliy Resume</description>
+    <title>Bezhanovych Vitalii Resume</title>
+    <link>https://bezha.github.io/cv/</link>
+    <description>Recent content on Bezhanovych Vitalii Resume</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://bezha.github.io/cv.bezha.od.ua/public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bezha.github.io/cv/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
