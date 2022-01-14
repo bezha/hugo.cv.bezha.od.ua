@@ -62,6 +62,12 @@ disable404 = true
         url = "//cv.bezha.od.ua"
         title = "cv.bezha.od.ua"
 
+        [[params.contact.list]]
+        class = "F.A.Q."
+        icon = "fa-globe"
+        url = "//https://bezha.github.io/faq/"
+        title = "faq.bezha.od.ua"
+
         #[[params.contact.list]]
         #class = "linkedin"
         #icon = "fa-linkedin"
