@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+     description = "Bezhanovych Vitalii Resume"
+#    author = "Pavel Kanyshev"
 
 # Theme styles
 
