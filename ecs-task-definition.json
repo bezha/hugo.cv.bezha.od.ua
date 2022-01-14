@@ -1,10 +1,10 @@
 {
-    "family": "resume",
+    "family": "resumenew",
     "executionRoleArn": "arn:aws:iam::267543455085:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "resume",
+            "name": "resumenew",
             "image": "267543455085.dkr.ecr.eu-central-1.amazonaws.com/cv:latest",
             "portMappings": [
                 {
