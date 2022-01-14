@@ -65,7 +65,7 @@ disable404 = true
         [[params.contact.list]]
         class = "F.A.Q."
         icon = "fa-globe"
-        url = "//https://bezha.github.io/faq/"
+        url = "//bezha.github.io/faq/"
         title = "faq.bezha.od.ua"
 
         #[[params.contact.list]]
