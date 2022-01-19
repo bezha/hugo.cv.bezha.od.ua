@@ -69,6 +69,12 @@ disable404 = true
         title = "faq.bezha.od.ua"
 
         [[params.contact.list]]
+        class = "badges"
+        icon = "fa-globe"
+        url = "//www.credly.com/users/vitalii-bezhanovych/badges"
+        title = "Certifications"
+
+        [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
         url = "//linkedin.com/in/vitalii-bezhanovych-213923227/"
@@ -216,7 +222,7 @@ disable404 = true
         level = "10%"
 
         [[params.skills.list]]
-        skill = "Kubernetes CKAD"
+        skill = "Kubernetes CKA"
         level = "10%"
 
     # Footer section
