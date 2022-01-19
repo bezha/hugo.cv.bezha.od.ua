@@ -68,11 +68,11 @@ disable404 = true
         url = "//bezha.github.io/faq/"
         title = "faq.bezha.od.ua"
 
-        #[[params.contact.list]]
-        #class = "linkedin"
-        #icon = "fa-linkedin"
-        #url = "//linkedin.com/in/johndoe"
-        #title = "linkedin.com/in/johndoe"
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/vitalii-bezhanovych-213923227/"
+        title = "Bezhanovych Vitalii"
 
         [[params.contact.list]]
         class = "github"
@@ -167,59 +167,57 @@ disable404 = true
         url = "https://github.com/bezha/docker_megacli_on_ghcr.io"
         tagline = "Docker container for running MegaCli and SMART/IPMI scripts. GitHub Actions Workflow CI/CD to store image on https://ghcr.io/"
 
-        [[params.projects.list]]
+		[[params.projects.list]]
         title = "Hugo CV Github Pages"
         url = "https://github.com/bezha/hugo.cv.bezha.od.ua"
         tagline = "Hosting CV on Github Pages with Github Actions CI/CD https://bezha.github.io/cv/"
 
-        [[params.projects.list]]
-        title = "Hugo CV S3"
+		[[params.projects.list]]
+        title = "CV deployed to S3 with Github Actions"
         url = "https://s3.eu-central-1.amazonaws.com/cv.bezha.od.ua/index.html"
         tagline = "Hosting CV on S3 with Github Actions CI/CD https://github.com/bezha/hugo.cv.bezha.od.ua"
 
-        [[params.projects.list]]
-        title = "AWS EKS CV"
-        url = "https://github.com/bezha/EKS_Kubernetes_CV"
-        tagline = "AWS EKS CV stateless application"
+		[[params.projects.list]]
+        title = "CV Cloudfront distribution from S3"
+        url = "https://d2fwaa2ogojhki.cloudfront.net/"
+        tagline = "https://d2fwaa2ogojhki.cloudfront.net/"
 
-        [[params.projects.list]]
-        title = "Prepairing to AWS Certifications Cloud Practitioner"
-        url = "https://bezha.od.ua/aws-certifications-cloud-practitioner/"
-        tagline = "AWS CCP"
+		[[params.projects.list]]
+        title = "CV & ELB & Terraform"
+        url = "https://github.com/bezha/EKS_Kubernetes_CV"
+        tagline = "Highly Available CV with AWS Application ELB on 3 docker containers in 3 availablity zones provision with Terraform"
+      
+	 	[[params.projects.list]]
+        title = "CV & ELB & ASG & Terraform"
+        url = "https://github.com/bezha/EKS_Kubernetes_CV"
+        tagline = "Highly available CV with AWS Application ELB & AWS Auto Scaling provision with Terraform"
+        
+		[[params.projects.list]]
+        title = "CV on AWS EKS cluster provision with Terraform"
+        url = "https://github.com/bezha/EKS_Kubernetes_CV"
+        tagline = "CV on AWS EKS cluster provision with Terraform"
 
     # Skills section
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "Licenses & certifications"
 
         [[params.skills.list]]
-        skill = "Linux: CentOS/Ubuntu"
-        level = "90%"
+        skill = "AWS Cloud Practitioner"
+        level = "100%"
                 
         [[params.skills.list]]
-        skill = "Monitoring:Nagios/Prom"
-        level = "70%"
-
-        [[params.skills.list]]
-        skill = "Ansible"
-        level = "50%"
-
-        [[params.skills.list]]
-        skill = "Docker"
-        level = "15%"
-
-        [[params.skills.list]]
-        skill = "AWS"
-        level = "2%"
-
-        [[params.skills.list]]
-        skill = "Kubernetes"
-        level = "2%"
+        skill = "AWS SAA-C02"
+        level = "20%"
 
         [[params.skills.list]]
         skill = "Terraform"
-        level = "2%"
+        level = "10%"
+
+        [[params.skills.list]]
+        skill = "Kubernetes CKAD"
+        level = "10%"
 
     # Footer section
 
