@@ -5,6 +5,23 @@ on:
     branches: [ green ]
 
 jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2.3.3
+
+      - name: Update theme
+        run: git submodule update --init --recursive
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2.4.13
+        with:
+          hugo-version: '0.76.5'
+
+      - name: Build
+        run: hugo --minify
+        
   build:
     runs-on: ubuntu-latest
 
