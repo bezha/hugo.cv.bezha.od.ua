@@ -1,4 +1,4 @@
-name: Docker Image CD
+name: Docker Image CD Turquoise
 
 on:
   push:
