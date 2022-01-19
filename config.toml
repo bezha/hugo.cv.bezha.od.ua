@@ -190,17 +190,17 @@ disable404 = true
 
 		[[params.projects.list]]
         title = "CV & ELB & Terraform"
-        url = "https://github.com/bezha/EKS_Kubernetes_CV"
+        url = "https://github.com/bezha/Terraform/tree/main/ELB"
         tagline = "Highly Available CV with AWS Application ELB on 3 docker containers in 3 availablity zones provision with Terraform"
       
 	 	[[params.projects.list]]
         title = "CV & ELB & ASG & Terraform"
-        url = "https://github.com/bezha/EKS_Kubernetes_CV"
+        url = "https://github.com/bezha/Terraform/tree/main/ELB%2BASG"
         tagline = "Highly available CV with AWS Application ELB & AWS Auto Scaling provision with Terraform"
         
 		[[params.projects.list]]
         title = "CV on AWS EKS cluster provision with Terraform"
-        url = "https://github.com/bezha/EKS_Kubernetes_CV"
+        url = "https://github.com/bezha/Terraform/tree/main/EKS"
         tagline = "CV on AWS EKS cluster provision with Terraform"
 
     # Skills section
