@@ -42,9 +42,10 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
-      - name: Sync files
+      - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: cv.bezha.od.ua
+          local-dir ./public/
           username: ${{ secrets.ftp_login }}
           password: ${{ secrets.ftp_password }}
