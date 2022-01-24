@@ -92,12 +92,6 @@ disable404 = true
         url = "//twitter.com/bezha"
         title = "@bezha"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/bezha"
-        title = "Testing"
-
     # Education section
     [params.education]
         enable = true
