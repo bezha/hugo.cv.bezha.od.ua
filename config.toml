@@ -109,12 +109,16 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "Russian"
-        level = "Native"
-
-        [[params.language.list]]
         language = "English"
         level = "Intermediate"
+
+        [[params.language.list]]
+        language = "Ukrainian"
+        level = "In my heart"
+
+        [[params.language.list]]
+        language = "russian"
+        level = "Native"
 
     # Interests section
     [params.interests]
@@ -214,7 +218,7 @@ disable404 = true
         level = "100%"
                 
         [[params.skills.list]]
-        skill = "AWS SAA-C02"
+        skill = "AWS SAA-C03"
         level = "20%"
 
         [[params.skills.list]]
