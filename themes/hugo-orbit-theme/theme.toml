@@ -6,6 +6,7 @@ homepage = "//github.com/aerohub/hugo-orbit-theme"
 tags = ["cv", "resume", "colour schemes"]
 features = ["responsive", "colour schemes"]
 min_version = 0.16
+enableEmoji = true
 
 [author]
   name = "Pavel Kanyshev"
