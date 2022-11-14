@@ -115,7 +115,7 @@ enableEmoji=true
 
         [[params.language.list]]
         language = "Ukrainian"
-        level = ":heart:"
+        level = "{{ emojify ":heart:" }}"
 
         [[params.language.list]]
         language = "russian"
