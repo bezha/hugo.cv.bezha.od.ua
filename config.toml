@@ -10,6 +10,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 disableRSS = true
 disableSitemap = true
 disable404 = true
+enableEmoji=true
 
 [params]
 
@@ -114,7 +115,7 @@ disable404 = true
 
         [[params.language.list]]
         language = "Ukrainian"
-        level = "In my heart"
+        level = ":heart:"
 
         [[params.language.list]]
         language = "russian"
