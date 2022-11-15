@@ -134,6 +134,14 @@ disable404 = true
         icon = "fa-bicycle"
         interest = "Cycling"
 
+        [[params.interests.list]]
+        icon = "fa-keyboard-o"
+        interest = "Mechanical Keyboard"
+
+        [[params.interests.list]]
+        icon = "fa-book"
+        interest = "Science fiction"   
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
