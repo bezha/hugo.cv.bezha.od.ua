@@ -15,7 +15,6 @@ disable404 = true
 
 # Meta
      description = "Bezhanovych Vitalii CV"
-     author = "Pavel Kanyshev"
 
 # Theme styles
 
@@ -87,7 +86,6 @@ disable404 = true
         title = "github.com/bezha"
 
         [[params.contact.list]]
-        
         class = "twitter"
         icon = "fa-twitter"
         url = "//twitter.com/bezha"
@@ -110,15 +108,17 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
+        language = "Ukrainian"
+        icon = "fa-heart"
+        level = "Beginners"
+
+        [[params.language.list]]
         language = "English"
         level = "Intermediate"
-
-        [[params.language.list]]
-        language = "Ukrainian"
-        level = "In my heart"      
-
+    
         [[params.language.list]]
         language = "russian"
+        #icon = "fa-eye-slash"
         level = "Native"
 
     # Interests section
@@ -127,9 +127,11 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
+        icon = "fa-futbol-o"
         interest = "Football"
 
         [[params.interests.list]]
+        icon = "fa-bicycle"
         interest = "Cycling"
 
 # Main body sections
@@ -242,4 +244,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Bezhanovych Vitalii"

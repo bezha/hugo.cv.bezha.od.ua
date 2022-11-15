@@ -2,7 +2,7 @@
                 <h2 class="container-block-title">{{ i18n "interests" }}</h2>
                 <ul class="list-unstyled interests-list">
 				{{ range .Site.Params.interests.list }}
-                    <li>{{ .interest }}</li>
+                    <li><i class="fa {{ .icon }}"></i>  {{ .interest }}</li>
 				{{ end }}
                 </ul>
             </div><!--//interests-->
