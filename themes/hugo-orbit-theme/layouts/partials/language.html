@@ -2,7 +2,7 @@
                 <h2 class="container-block-title">{{ i18n "language" }}</h2>
                 <ul class="list-unstyled interests-list">
 				{{ range .Site.Params.language.list }}
-                <li><i class="fa {{ .icon }}"></i>&nbsp;{{ .language }} <span class="lang-desc">({{ .level }})</span></li>
+                <li><i class="fa {{ .icon }}">&nbsp;</i>{{ .language }} <span class="lang-desc">({{ .level }})</span></li>
 				{{ end }}
                 </ul>
             </div><!--//language-->
