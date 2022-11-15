@@ -51,25 +51,25 @@ disable404 = true
 
         [[params.contact.list]]
         class = "website"
-        icon = "fa-globe"
+        icon = "fa-wordpress"
         url = "//bezha.od.ua"
         title = "bezha.od.ua"
 
         [[params.contact.list]]
         class = "CV"
-        icon = "fa-globe"
+        icon = "fa-file"
         url = "//cv.bezha.od.ua"
         title = "cv.bezha.od.ua"
 
         [[params.contact.list]]
         class = "F.A.Q."
-        icon = "fa-globe"
+        icon = "fa-question"
         url = "//bezha.github.io/faq/"
         title = "faq.bezha.od.ua"
 
         [[params.contact.list]]
         class = "badges"
-        icon = "fa-globe"
+        icon = "fa-certificate"
         url = "//www.credly.com/users/vitalii-bezhanovych/badges"
         title = "Certifications"
 
@@ -98,6 +98,7 @@ disable404 = true
 
         [[params.education.list]]
         degree = "MSc in Computer Science"
+        icon = "fa-graduation-cap"
         college = "Odessa National Maritime University (ONMU)"
         dates = "2001 - 2006"
 
@@ -114,11 +115,12 @@ disable404 = true
 
         [[params.language.list]]
         language = "English"
+        icon = "fa-globe"
         level = "Intermediate"
     
         [[params.language.list]]
         language = "russian"
-        #icon = "fa-eye-slash"
+        icon = "fa-trash"
         level = "Native"
 
     # Interests section
@@ -136,7 +138,7 @@ disable404 = true
 
         [[params.interests.list]]
         icon = "fa-keyboard-o"
-        interest = "Mechanical Keyboard"
+        interest = "Mechanical Keyboards"
 
         [[params.interests.list]]
         icon = "fa-book"
