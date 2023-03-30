@@ -165,7 +165,7 @@ disable404 = true
         position = " DataCenter System Administrator"
         dates = "2012 - Present"
         company = "USA NY DataCenter"
-        details = "**My current role:** Technical support for clients requests; Installing OS/Software to Dedicated/VPS; **Virtualization** with SolusVM: OpenVZ/KVM/XEN; **Monitoring** Hardware Nodes with: Nagios/Prometheus; **Backup** VPS; **Ansible**:Provisioning monitoring software; Sharing Hosting: Installing/Support: Cpanel/Plesk"
+        details = "**My current role:** Technical support for clients requests; Installing OS/Software to Dedicated/VPS; **Virtualization** with SolusVM: OpenVZ/KVM/XEN; **Monitoring** Hardware Nodes with: Nagios/Prometheus; **Backup** VPS; **Ansible**:Provisioning monitoring software; Shared Hosting: Installing/Support: Cpanel/Plesk"
         [[params.jobs.list]]
         position = "DataCenter System Administrator"
         dates = "2007 - 2010"
@@ -234,7 +234,15 @@ disable404 = true
                 
         [[params.skills.list]]
         skill = "AWS SAA-C03"
-        level = "20%"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "AWS DVA-C02"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "AWS SOA-C02"
+        level = "10%"
 
         [[params.skills.list]]
         skill = "Terraform"
